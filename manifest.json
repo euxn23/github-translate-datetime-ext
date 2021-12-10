@@ -1,0 +1,13 @@
+{
+  "name": "GitHub Translate Datetime",
+  "author": "euxn23",
+  "description": "A chrome extension translates GitHub datetime into ISO 8601 format.",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
